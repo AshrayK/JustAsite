@@ -1,0 +1,200 @@
+.wrapper{
+	width:900px;
+	margin:10px auto;
+}
+.options
+{
+	width:300px;
+	height:400px;
+	background: transparent;
+	float:left;
+	margin:0;
+	box-shadow:1px 1px 20px rgba(0,0,0,0.7);
+	text-align:center;
+	transition:0.5s;
+	border-radius:20px;
+}
+.options:hover{	
+	background:#00203FFF;
+	box-shadow:1px 1px 1px rgba(100,0,0,0);
+	transform: scale(1.1);
+	border-radius:10%;
+	z-index:1;
+}
+.price{
+	width:20%;
+	height:20px;
+	border-radius:45%;
+	border:1px groove #FEFCD7;
+	padding:10px;
+	margin:5% auto 0 auto;
+	text-align:center;
+}
+.facility{
+	margin-top:15%;
+}	
+.options h2{
+	margin-top:15%;
+	font-size:20px;
+	color:#4d79ff
+}
+.price h3{
+	font-size:20px;
+	color:#1FA49B;
+}
+.facility h4{
+	font-weight:bold;
+	color:#ef8e38;
+	font-size:18px;
+	line-height:30px;
+}
+
+.options button{
+	font-weight:bold;
+	margin:10% 0%;
+}
+.facility p{
+	font-weight:bold;
+	color:#ef8e38;
+	font-size:12px;
+	line-height:30px;
+}
+#mymail{
+	font-weight:bold;
+	font-size:12px;
+	line-height:30px;
+}
+.avatar{
+	border-radius:50%;
+	width:100px;
+	margin:10px;
+}
+.avatar:hover{
+	box-shadow:10px 5px 5px black;
+	transform: scale(1.2);
+}
+.testy h2{
+	margin-top:15%;
+	font-size:20px;
+	color:#4d79ff
+}
+
+.testy{
+	width:300px;
+	height:400px;
+	background: #575851;
+	float:left;
+	margin:0;
+	box-shadow:1px 1px 20px rgba(0,0,0,0.7);
+	text-align:center;
+	transition:0.5s;
+	border-radius:20% 38%;
+}
+.testy:hover{
+	background:#FEFCD7 ;
+	box-shadow:1px 1px 1px rgba(100,0,0,0);
+	transform: scale(1.1);
+	border-radius:20px;
+	z-index:1;
+}
+
+.contact{
+	width:800px;
+	height:400px;
+	background: url("bg3.jpg");
+	background-size:100% 100%;
+	float:left;
+	margin:0;
+	margin-left:70px;
+	box-shadow:1px 1px 20px rgba(0,0,0,0.7);
+	text-align:center;
+	transition:0.5s;
+	border-radius:20px;
+}
+.contact:hover{
+	box-shadow:1px 1px 1px rgba(100,0,0,0);
+	transform: scale(1.1);
+	z-index:1;
+}
+
+.contact input[type=submit]{
+	border-radius:10px;
+	width:100px;
+	color:white;
+	font-weight:bold;
+	background-image: url("bg2.png");
+	text-transform:uppercase;
+}
+.contact input[type=submit]:hover{
+	transform:scale(1.1);
+	transition:0.5s;
+	color:#030B44;
+	background-image: url("bg3.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+fieldset{
+	width:650px;
+	margin:30px;
+	margin-left:50px;
+	border-radius:10px;
+}
+
+input, textarea{
+	resize: none;
+	border-radius:10px;
+	background:transparent;
+	color:#607B8B;
+}
+legend{
+	background: url("bg2.png");
+	background-size:100% 100%;
+	border-radius:10px;
+	width:150px;
+	height:20px;
+	color:orange;
+	font-weight:bold;
+	float:left;
+	margin:-10px 10px;
+} 
+
+.team-img{
+	width:100px;
+	height:100px;
+	border-radius:20%;
+	margin-top:40px;
+	background:blue;
+}
+.team-img:hover{
+	box-shadow:10px 5px 5px gray;
+	transform: scale(1.8);
+	transition:0.5s;
+}
+
+.team{
+	width:400px;
+	height:400px;
+	background: transparent;
+	background-size:100% 100%;
+	float:left;
+	margin:0;
+	margin-left:250px;
+	box-shadow:1px 1px 20px rgba(0,0,0,0.7);
+	text-align:center;
+	transition:0.5s;
+	border-radius:20px;
+}
+.team:hover{
+	box-shadow:1px 1px 1px rgba(100,0,0,0);
+	transform: scale(1.1);
+	z-index:1;
+}
+.team h2{
+	margin-top:5%;
+	font-size:20px;
+	color:#4d79ff
+}
+.team-button{
+	margin:300px;
+	margin-left:150px
+}
